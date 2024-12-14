@@ -1,7 +1,7 @@
 # Thermal-Field-Prediction
 This project provides a U-Net based model for solving a Laplace equation-related temperature distribution problem. The model takes boundary values as input and predicts internal temperature distributions.
 
-##Requirements
+## Requirements
 
 Python Version: Python 3.8 or higher is recommended.
 
@@ -16,12 +16,12 @@ To install the required packages, run:
 ```
 pip3 install tensorflow numpy matplotlib scipy
 ```
-##Data Preparation
+## Data Preparation
 
 The code expects a CSV file named `laplace_results_v3.csv` containing the data. Each line of the CSV file (except the header) should represent a flattened 100x100 temperature field.
 Ensure that `laplace_results_v3.csv` is present in the same directory as the code.
 
-##Running the Code
+## Running the Code
 
 Set train_mode in the code:
 
@@ -48,3 +48,8 @@ The code loads the pre-trained `best_model_v3.h5`.
 
 It evaluates performance on the test set.
 It selects one sample from the test set, makes a prediction, and visualizes both the true and predicted temperature fields.
+
+Examples:
+
+![n1](./n1.png)
+![n2](./n2.png)
