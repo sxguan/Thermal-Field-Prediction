@@ -3,7 +3,7 @@ This project provides a U-Net based model for solving a Laplace equation-related
 
 ## Numerical methods
 
-run the matlab code `heat_eq.m` to genrate the training data. Training data are temperature mapping in with different boundary condition settings. 
+Run the matlab code `heat_eq.m` to genrate the training data. Training data are temperature mapping in with different boundary condition settings. 
 
 All data would be saved in a `.csv` file, each row represents a data point in training.
 
